@@ -12,8 +12,6 @@ config :logger, level: :warn
 # Configure your database
 config :virgil, Virgil.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
   database: "virgil_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
