@@ -55,11 +55,11 @@ To see what other routes are available, run:
 
 Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
-## Running automated tests
+## Other things to try
 
-```sh
-> mix test
-```
+* `mix test` -- run tests
+* `mix run priv/repo/seeds.exs` -- seed database with sample data
+* `mix run priv/repo/weeds.exs` -- clear data from database
 
 ## Learn more
 
