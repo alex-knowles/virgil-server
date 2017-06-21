@@ -45,6 +45,14 @@ To start your Phoenix app:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
+You can also visit [`localhost:4000/api/poems`](http://localhost:4000/api/poems).
+
+To see what other routes are available, run:
+
+```
+> mix phoenix.routes
+```
+
 Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
 ## Running automated tests
