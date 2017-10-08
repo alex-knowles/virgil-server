@@ -42,7 +42,7 @@ You can use homebrew to run PostgreSQL in the background:
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
+  * Setup your database (create, migrate, and seed) with `mix ecto.setup`
   * Start Phoenix endpoint with `mix phoenix.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
@@ -61,7 +61,7 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
 
 * `mix test` -- run tests
 * `mix run priv/repo/seeds.exs` -- seed database with sample data
-* `mix run priv/repo/weeds.exs` -- clear data from database
+* `mix ecto.reset` -- rebuild database (drop, create, migrate, and seed)
 
 ## Learn more
 
